@@ -1,8 +1,27 @@
-/*
-	TXT by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+var swiper = new Swiper(".slide-container", {
+	loop: true,
+
+	// If we need pagination
+	pagination: {
+	el: '.swiper-pagination',
+	},
+
+	// Navigation arrows
+	navigation: {
+	nextEl: '.swiper-button-next',
+	prevEl: '.swiper-button-prev',
+	},
+  });
+
+
+
+// Change Nav to have black bottom border when scrolled	
+function scrollNav() {
+	const nav = document.getElementById('nav')
+	if(this.scrollY >= 80) nav.classList.add('scroll-nav'); else nav.classList.remove('scroll-nav');
+}
+
+window.addEventListener('scroll', scrollNav);
 
 (function($) {
 

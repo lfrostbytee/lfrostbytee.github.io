@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <!--
 	TXT by HTML5 UP
-	html5up.net | @ajlkn
+	html5up.net
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
@@ -10,7 +10,11 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+		<!-- Swiper CSS -->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+		<!-- CSS -->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
@@ -19,8 +23,10 @@
 				<header id="header">
 					<div class="logo container">
 						<div>
-							<h1><a href="index.html" id="logo">TXT</a></h1>
-							<p>A responsive site template by HTML5 UP</p>
+							<div class="typing-container">
+								<h1 id="logo">Marcus</h1>
+								<h3 class="typing__title">Aspiring Game and Software Developer</h3>
+							</div>
 						</div>
 					</div>
 				</header>
@@ -29,35 +35,37 @@
 				<nav id="nav">
 					<ul>
 						<li class="current"><a href="index.html">Home</a></li>
+						<li><a class="scrolly" href="#main">About myself</a></li>
 						<li>
-							<a href="#">Dropdown</a>
+							<a class="scrolly" href="#">Projects</a>
 							<ul>
-								<li><a href="#">Lorem ipsum dolor</a></li>
-								<li><a href="#">Magna phasellus</a></li>
+								<li><a class="scrolly" href="#">Lorem ipsum dolor</a></li>
+								<li><a class="scrolly" href="#">Magna phasellus</a></li>
 								<li>
-									<a href="#">Phasellus consequat</a>
+									<a class="scrolly" href="#">Phasellus consequat</a>
 									<ul>
-										<li><a href="#">Lorem ipsum dolor</a></li>
-										<li><a href="#">Phasellus consequat</a></li>
-										<li><a href="#">Magna phasellus</a></li>
-										<li><a href="#">Etiam dolore nisl</a></li>
+										<li><a class="scrolly" href="#">Lorem ipsum dolor</a></li>
+										<li><a class="scrolly" href="#">Phasellus consequat</a></li>
+										<li><a class="scrolly" href="#">Magna phasellus</a></li>
+										<li><a class="scrolly" href="#">Etiam dolore nisl</a></li>
 									</ul>
 								</li>
-								<li><a href="#">Veroeros feugiat</a></li>
+								<li><a class="scrolly" href="#">Veroeros feugiat</a></li>
 							</ul>
 						</li>
-						<li><a href="left-sidebar.html">Left Sidebar</a></li>
-						<li><a href="right-sidebar.html">Right Sidebar</a></li>
-						<li><a href="no-sidebar.html">No Sidebar</a></li>
+						<li><a class="scrolly" href="#main">Skills and Experience</a></li>
+						<li><a class="scrolly" href="#">Contact Me</a></li>
+						<li><a class="scrolly" href="#">Mystery content</a></li>
 					</ul>
 				</nav>
 
 			<!-- Banner -->
 				<section id="banner">
 					<div class="content">
-						<h2>Welcome to TXT by HTML5 UP</h2>
-						<p>A free responsive site template built on HTML5, CSS3, and some other stuff</p>
-						<a href="#main" class="button scrolly">Alright let's go</a>
+						<h2>Hello there!</h2>
+						<p>I document most of my work here</p>
+						<p>Come along and let's take a look at some of the cool things I have done</p>
+						<a href="#main" class="button scrolly">Let's go</a>
 					</div>
 				</section>
 
@@ -65,193 +73,139 @@
 				<section id="main">
 					<div class="container">
 						<div class="row gtr-200">
-							<div class="col-12">
-
+							<div class="col-12" id="about">
 								<!-- Highlight -->
 									<section class="box highlight">
 										<ul class="special">
+											<li><a href="#" class="icon solid fa-school"><span class="label">School</span></a></li>
+											<li><a href="#" class="icon solid fa-desktop"><span class="label">Computer</span></a></li>
 											<li><a href="#" class="icon solid fa-search"><span class="label">Magnifier</span></a></li>
-											<li><a href="#" class="icon solid fa-tablet-alt"><span class="label">Tablet</span></a></li>
-											<li><a href="#" class="icon solid fa-flask"><span class="label">Flask</span></a></li>
-											<li><a href="#" class="icon solid fa-cog"><span class="label">Cog?</span></a></li>
+											<li><a href="#" class="icon solid fa-smile"><span class="label">Smile</span></a></li>
 										</ul>
 										<header>
-											<h2>A random assortment of icons in circles</h2>
-											<p>And some text that attempts to explain their significance</p>
+											<h2>Who am I?</h2>
+											<p>I am a Year 2 Computer Science student looking for opportunities <br /> in the Software Engineering and Game Development Industry</p>
 										</header>
 										<p>
-											Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus. Praesent semper mod quis eget mi. Etiam eu<br />
-											ante risus. Aliquam erat volutpat. Aliquam luctus et mattis lectus amet pulvinar. Nam nec turpis consequat.
+											Since young, many kinds of software have fascinated me and spark wonder inside my heart.<br />
+											Specifically, games and online applications are my favourite medium for bringing joy to others. <br />
+											By creating meaningful software, I want to ignite the same feeling of wonder within everyone. <br /> 
 										</p>
+										<a class="button" href="assets\downloadables\OngWeeMarcusCV.pdf" download>
+											Download my CV
+											<span class="icon solid fa-download"></span>
+										</a>
 									</section>
 
 							</div>
 							<div class="col-12">
-
 								<!-- Features -->
-									<section class="box features">
-										<h2 class="major"><span>A Major Heading</span></h2>
+									<section>
+										<h2 class="major"><span>Technical Skills</span></h2>
 										<div>
 											<div class="row">
 												<div class="col-3 col-6-medium col-12-small">
-
 													<!-- Feature -->
 														<section class="box feature">
-															<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-															<h3><a href="#">A Subheading</a></h3>
-															<p>
-																Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in
-																lectus dolore. Praesent semper mod quis eget sed etiam eu ante risus.
-															</p>
+															<h3>Languages</h3>
+															<img class="icon skills" src="images/java.png" alt title="Java">
+															<img class="icon skills" src="images/javascript.png" alt title="Javascript">
+															<img class="icon skills" src="images/c.png" alt title="C">
+															<img class="icon skills" src="images/python.png" alt title="Python">
 														</section>
 
 												</div>
 												<div class="col-3 col-6-medium col-12-small">
-
 													<!-- Feature -->
 														<section class="box feature">
-															<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-															<h3><a href="#">Another Subheading</a></h3>
-															<p>
-																Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in
-																lectus dolore. Praesent semper mod quis eget sed etiam eu ante risus.
-															</p>
+															<h3>Tools/Libraries</h3>
+															<img class="icon skills" src="images/github.png" alt title="GitHub">
+															<img class="icon skills" src="images/git.png" alt title="Git">
+															<img class="icon skills" src="images/gradle.png" alt title="Gradle">
+															<img class="icon skills" src="images/unity.png" alt title="Unity">
+															<img class="icon skills" src="images/uikitten.png" alt title="UI Kitten">
 														</section>
 
 												</div>
 												<div class="col-3 col-6-medium col-12-small">
-
 													<!-- Feature -->
 														<section class="box feature">
-															<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-															<h3><a href="#">And Another</a></h3>
-															<p>
-																Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in
-																lectus dolore. Praesent semper mod quis eget sed etiam eu ante risus.
-															</p>
+															<h3>Frontend Frameworks</h3>
+															<img class="icon skills" src="images/reactnative.png" alt title="React Native">
+															<img class="icon skills" src="images/html.png" alt title="HTML">
+															<img class="icon skills" src="images/css.png" alt title="CSS">
 														</section>
 
 												</div>
 												<div class="col-3 col-6-medium col-12-small">
-
 													<!-- Feature -->
 														<section class="box feature">
-															<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-															<h3><a href="#">And One More</a></h3>
-															<p>
-																Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in
-																lectus dolore. Praesent semper mod quis eget sed etiam eu ante risus.
-															</p>
+															<h3>Backend Frameworks</h3>
+															<img class="icon skills" src="images/firebase.png" alt title="Firebase">
 														</section>
 
-												</div>
-												<div class="col-12">
-													<ul class="actions">
-														<li><a href="#" class="button large">Do Something</a></li>
-														<li><a href="#" class="button alt large">Think About It</a></li>
-													</ul>
 												</div>
 											</div>
 										</div>
 									</section>
-
-							</div>
-							<div class="col-12">
-
-								<!-- Blog -->
-									<section class="box blog">
-										<h2 class="major"><span>Another Major Heading</span></h2>
-										<div>
-											<div class="row">
-												<div class="col-9 col-12-medium">
-													<div class="content">
-
-														<!-- Featured Post -->
-															<article class="box post">
-																<header>
-																	<h3><a href="#">Here's a really big heading</a></h3>
-																	<p>With a smaller subtitle that attempts to elaborate</p>
-																	<ul class="meta">
-																		<li class="icon fa-clock">15 minutes ago</li>
-																		<li class="icon fa-comments"><a href="#">8</a></li>
-																	</ul>
-																</header>
-																<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-																<p>
-																	Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in lectus. Praesent
-																	semper mod quis eget mi. Etiam sed ante risus aliquam erat et volutpat. Praesent a
-																	dapibus velit. Curabitur sed nisi nunc, accumsan vestibulum lectus. Lorem ipsum
-																	dolor sit non aliquet sed, tempor et dolor. Praesent a dapibus velit. Curabitur
-																	accumsan.
-																</p>
-																<a href="#" class="button">Continue Reading</a>
-															</article>
-
-													</div>
-												</div>
-												<div class="col-3 col-12-medium">
-													<div class="sidebar">
-
-														<!-- Archives -->
-															<ul class="divided">
-																<li>
-																	<article class="box post-summary">
-																		<h3><a href="#">A Subheading</a></h3>
-																		<ul class="meta">
-																			<li class="icon fa-clock">6 hours ago</li>
-																			<li class="icon fa-comments"><a href="#">34</a></li>
-																		</ul>
-																	</article>
-																</li>
-																<li>
-																	<article class="box post-summary">
-																		<h3><a href="#">Another Subheading</a></h3>
-																		<ul class="meta">
-																			<li class="icon fa-clock">9 hours ago</li>
-																			<li class="icon fa-comments"><a href="#">27</a></li>
-																		</ul>
-																	</article>
-																</li>
-																<li>
-																	<article class="box post-summary">
-																		<h3><a href="#">And Another</a></h3>
-																		<ul class="meta">
-																			<li class="icon fa-clock">Yesterday</li>
-																			<li class="icon fa-comments"><a href="#">184</a></li>
-																		</ul>
-																	</article>
-																</li>
-																<li>
-																	<article class="box post-summary">
-																		<h3><a href="#">And Another</a></h3>
-																		<ul class="meta">
-																			<li class="icon fa-clock">2 days ago</li>
-																			<li class="icon fa-comments"><a href="#">286</a></li>
-																		</ul>
-																	</article>
-																</li>
-																<li>
-																	<article class="box post-summary">
-																		<h3><a href="#">And One More</a></h3>
-																		<ul class="meta">
-																			<li class="icon fa-clock">3 days ago</li>
-																			<li class="icon fa-comments"><a href="#">8,086</a></li>
-																		</ul>
-																	</article>
-																</li>
-															</ul>
-															<a href="#" class="button alt">Archives</a>
-
-													</div>
-												</div>
-											</div>
-										</div>
-									</section>
-
 							</div>
 						</div>
 					</div>
 				</section>
+			
+			<!-- Projects -->
+			<section id="projects">
+				<h2 class="major project-heading"><span>My Projects</span></h2>
+				<div class="swiper slide-container">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper project-content">
+						<!-- Slides -->
+						<div class="swiper-slide">
+							<h3>Duke The Market</h3>
+							<img class="project-image" src="images/dukethemarket.png" alt title="Duke The Market">
+							<p>A Command Line Interface Java Application to help marketers working in department stores</p>
+							<a class="button" href="https://ay2223s1-cs2103-f09-2.github.io/tp/" target="_blank">
+								Find out more
+								<span class="icon solid fa-long-arrow-alt-right"></span>
+							</a>
+						</div>
+
+						<div class="swiper-slide">
+							<h3>Poolsheen</h3>
+							<img class="project-image" src="images/poolsheen.png" alt title="Poolsheen">
+							<p>A simple Command Line Interface Java Application that helps manage the daily happenings around your life.</p>
+							<a class="button" href="https://lfrostbytee.github.io/ip/" target="_blank">
+								Find out more
+								<span class="icon solid fa-long-arrow-alt-right"></span>
+							</a>
+						</div>
+
+						<div class="swiper-slide">
+							<h3>frieNUS</h3>
+							<img class="project-image" src="images/frienus.jpg" alt title="frieNUS">
+							<p>A mobile application that helps students find others who want to do the same modules together</p>
+							<a class="button" href="https://docs.google.com/document/d/1jze7m9hmGHa29Ld6eNFrX0ZSMxrrj2iH1B3pi4bmaYg/edit?usp=sharing" target="_blank">
+								Find out more
+								<span class="icon solid fa-long-arrow-alt-right"></span>
+							</a>
+						</div>
+
+						<div class="swiper-slide">
+							<h3>An Awkward Pong Game</h3>
+							<img class="project-image" src="images/awkwardponggame.png" alt title="An Awkward Pong Game">
+							<p>A Python executable for a 1/2 player Pong Game, but with a twist! Run it on any Python IDE.</p>
+							<a class="button" href="assets/downloadables/An_Awkard_Pong.zip" download>
+								Download now!
+								<span class="icon solid fa-download"></span>
+							</a>
+						</div>
+					</div>
+
+					<div class="swiper-pagination"></div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+			</section>
 
 			<!-- Footer -->
 				<footer id="footer">
@@ -262,13 +216,11 @@
 								<!-- About -->
 									<section>
 										<h2 class="major"><span>What's this about?</span></h2>
-										<p>
-											This is <strong>TXT</strong>, yet another free responsive site template designed by
-											<a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net">HTML5 UP</a>. It's released under the
-											<a href="http://html5up.net/license/">Creative Commons Attribution</a> license so feel free to use it for
-											whatever you're working on (personal or commercial), just be sure to give us credit for the design.
-											That's basically it :)
-										</p>
+										<p> 
+											This is my attempt at a nice-looking website. The template for this project has been adapted from <strong>TXT</strong>. <br>
+											Some of the JavaScript components are borrowed from other online projects. <br>
+											More content will be added soon
+										</p>	
 									</section>
 
 							</div>
@@ -278,11 +230,9 @@
 									<section>
 										<h2 class="major"><span>Get in touch</span></h2>
 										<ul class="contact">
-											<li><a class="icon brands fa-facebook-f" href="#"><span class="label">Facebook</span></a></li>
-											<li><a class="icon brands fa-twitter" href="#"><span class="label">Twitter</span></a></li>
-											<li><a class="icon brands fa-instagram" href="#"><span class="label">Instagram</span></a></li>
-											<li><a class="icon brands fa-dribbble" href="#"><span class="label">Dribbble</span></a></li>
-											<li><a class="icon brands fa-linkedin-in" href="#"><span class="label">LinkedIn</span></a></li>
+											<li><a class="icon brands fa-github" href="https://github.com/lfrostbytee"><span class="label">GitHub</span></a></li>
+											<li><a class="icon solid fa-inbox" href="mailto: o.w.marcus@u.nus.edu"><span class="label">Email</span></a></li>
+											<li><a class="icon brands fa-linkedin" href="https://www.linkedin.com/in/marcus-ong-wee-28bb03216/"><span class="label">LinkedIn</span></a></li>
 										</ul>
 									</section>
 
@@ -292,7 +242,7 @@
 						<!-- Copyright -->
 							<div id="copyright">
 								<ul class="menu">
-									<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+									<li>&copy; All rights reserved</li><li>Design: <a href="http://html5up.net">Adapted from TXT: HTML5 UP</a></li>
 								</ul>
 							</div>
 
@@ -308,7 +258,10 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
 
+			<!-- Swiper JS -->
+			<script src="assets/js/swiper-bundle.min.js"></script>
+			<script src="assets/js/main.js"></script>
+			
 	</body>
 </html>
