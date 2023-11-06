@@ -71,7 +71,7 @@
 
 			<!-- Banner -->
 				<section id="banner">
-					<div id="bannerContent">
+					<div class="bannerContent">
 						<h2>Hello there!</h2>
 						<p>I document most of my work here</p>
 						<p>Come along and take a look at some of the cool things I have done</p>
@@ -184,6 +184,16 @@
 </html>
 
 <style>
+	#banner {
+		position: relative;
+		background-image: url("images/overlay.png"), url("images/overlay.png"), url("images/banners/banner.jpg");
+		background-position: top left, top left, top left;
+		background-repeat: repeat, repeat, no-repeat;
+		background-size: cover;
+		background-clip: padding-box;
+		z-index: 1;
+	}
+
 	.personalDescription {
 		text-align: left
 	}

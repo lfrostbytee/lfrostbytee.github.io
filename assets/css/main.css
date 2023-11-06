@@ -2505,7 +2505,7 @@ input, select, textarea {
 		padding: 11em 0;
 	}
 
-	#bannerContent {
+	.bannerContent {
 		position: relative;
 		background-color: rgba(21, 28, 23, 0.85);
 		background-image: url("images/overlay.png"), url("images/highlight.png");
@@ -2517,13 +2517,13 @@ input, select, textarea {
 		padding: 4em 0 3.5em 0;
 	}
 
-	#bannerContent h2 {
+	.bannerContent h2 {
 		color: #fff;
 		font-size: 2.75em;
 		margin: 0 0 0.5em 0;
 	}
 
-	#bannerContent p {
+	.bannerContent p {
 		display: block;
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-weight: 700;
@@ -2533,7 +2533,7 @@ input, select, textarea {
 		margin: 0 0 1.25em 0;
 	}
 
-	#bannerContent .button {
+	.bannerContent .button {
 		-moz-transition: border-color .2s ease-in-out, color .2s ease-in-out;
 		-webkit-transition: border-color .2s ease-in-out, color .2s ease-in-out;
 		-ms-transition: border-color .2s ease-in-out, color .2s ease-in-out;
@@ -2545,12 +2545,12 @@ input, select, textarea {
 		font-size: 1.5em;
 	}
 
-	#bannerContent .button:hover {
+	.bannerContent .button:hover {
 		color: #e4e7e5;
 		border-color: rgba(87, 93, 89, 0.75);
 	}
 
-	#bannerContent .button:active {
+	.bannerContent .button:active {
 		color: #fff;
 		border-color: #616763;
 	}
