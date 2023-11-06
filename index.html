@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>How's today?</title>
+		<title>How are you today?</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
@@ -14,7 +14,6 @@
         <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 		<!-- CSS -->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
@@ -24,8 +23,8 @@
 					<div class="logo container">
 						<div>
 							<div class="typing-container">
-								<h1 id="logo">Marcus</h1>
-								<h3 class="typing__title">Aspiring Game and Software Developer</h3>
+								<h1 id="logo">Building</h1>
+								<h2 class="typing__title" style="color:greenyellow;">Purposeful Software</h2>
 							</div>
 						</div>
 					</div>
@@ -35,11 +34,23 @@
 				<nav id="nav">
 					<ul>
 						<li class="current"><a href="index.html">Home</a></li>
-						<li><a class="scrolly" href="#main">Who Am I?</a></li>
-						<li><a class="scrolly" href="#skills">Skills</a></li>
 						<li>
-							<a class="scrolly" href="#projects">Projects</a>
-							<!-- <ul>
+							<a class="scrolly" href="projects.html">Products</a>
+							<ul>
+								<li><a class="scrolly" href="projects.html#projects">Projects</a></li>
+								<li><a class="scrolly" href="projects.html#skills">Skills</a></li>
+							</ul>
+						</li>
+						<li>
+							<a class="scrolly" href="events.html">Involvements</a>
+							<ul>
+								<li><a class="scrolly" href="events.html#events">Events</a></li>
+								<li><a class="scrolly" href="events.html#modules">Modules</a></li>
+							</ul>
+						</li>
+						<!-- <li>
+							<a class="scrolly" href="contact.html">Contact me!</a>
+							<ul>
 								<li><a class="scrolly" href="#">Lorem ipsum dolor</a></li>
 								<li><a class="scrolly" href="#">Magna phasellus</a></li>
 								<li>
@@ -52,18 +63,18 @@
 									</ul>
 								</li>
 								<li><a class="scrolly" href="#">Veroeros feugiat</a></li>
-							</ul> -->
-						</li>
-						<li><a class="scrolly" href="#contact">Contact</a></li>
+							</ul>
+						</li> -->
+						<li><a class="scrolly" href="contact.html">Contact</a></li>
 					</ul>
 				</nav>
 
 			<!-- Banner -->
 				<section id="banner">
-					<div class="content">
+					<div id="bannerContent">
 						<h2>Hello there!</h2>
 						<p>I document most of my work here</p>
-						<p>Come along and let's take a look at some of the cool things I have done</p>
+						<p>Come along and take a look at some of the cool things I have done</p>
 						<a href="#main" class="button scrolly">Let's go</a>
 					</div>
 				</section>
@@ -72,139 +83,56 @@
 				<section id="main">
 					<div class="container">
 						<div class="row gtr-200">
-							<div class="col-12" id="about">
+							<div class="col-3" id="about">
 								<!-- Highlight -->
 									<section class="box highlight">
-										<ul class="special">
-											<li><a href="#" class="icon solid fa-school"><span class="label">School</span></a></li>
-											<li><a href="#" class="icon solid fa-desktop"><span class="label">Computer</span></a></li>
-											<li><a href="#" class="icon solid fa-search"><span class="label">Magnifier</span></a></li>
-											<li><a href="#" class="icon solid fa-smile"><span class="label">Smile</span></a></li>
-										</ul>
-										<header>
-											<h2>Who am I?</h2>
-											<p>I am a Year 2 Computer Science student looking for opportunities <br /> in the Software Engineering and Game Development Industry</p>
-										</header>
-										<p>
-											Since young, many kinds of software have fascinated me and spark wonder inside my heart.<br />
-											Specifically, games and online applications are my favourite medium for bringing joy to others. <br />
-											By creating meaningful software, I want to ignite the same feeling of wonder within everyone. <br /> 
-										</p>
-										<a class="button" href="assets\downloadables\OngWeeMarcusCV.pdf" download>
-											Download my CV
-											<span class="icon solid fa-download"></span>
-										</a>
+										<img style="border-radius: 50%; width: 100%; height:100%; object-fit: contain" class="skills" src="images/personalPhotoCrop.jpg" alt title="Java">
 									</section>
-
 							</div>
-							<div class="col-12">
-								<!-- Features -->
-									<section id="skills">
-										<h2 class="major"><span>Technical Skills</span></h2>
-										<div>
-											<div class="row">
-												<div class="col-3 col-6-medium col-12-small">
-													<!-- Feature -->
-														<section class="box feature">
-															<h3>Languages</h3>
-															<img class="icon skills" src="images/java.png" alt title="Java">
-															<img class="icon skills" src="images/javascript.png" alt title="Javascript">
-															<img class="icon skills" src="images/c.png" alt title="C">
-															<img class="icon skills" src="images/python.png" alt title="Python">
-														</section>
-
-												</div>
-												<div class="col-3 col-6-medium col-12-small">
-													<!-- Feature -->
-														<section class="box feature">
-															<h3>Tools/Libraries</h3>
-															<img class="icon skills" src="images/github.png" alt title="GitHub">
-															<img class="icon skills" src="images/git.png" alt title="Git">
-															<img class="icon skills" src="images/gradle.png" alt title="Gradle">
-															<img class="icon skills" src="images/unity.png" alt title="Unity">
-															<img class="icon skills" src="images/uikitten.png" alt title="UI Kitten">
-														</section>
-
-												</div>
-												<div class="col-3 col-6-medium col-12-small">
-													<!-- Feature -->
-														<section class="box feature">
-															<h3>Frontend Frameworks</h3>
-															<img class="icon skills" src="images/reactnative.png" alt title="React Native">
-															<img class="icon skills" src="images/html.png" alt title="HTML">
-															<img class="icon skills" src="images/css.png" alt title="CSS">
-														</section>
-
-												</div>
-												<div class="col-3 col-6-medium col-12-small">
-													<!-- Feature -->
-														<section class="box feature">
-															<h3>Backend Frameworks</h3>
-															<img class="icon skills" src="images/firebase.png" alt title="Firebase">
-														</section>
-
-												</div>
-											</div>
+							<div class="col-9" id="about">
+								<!-- Highlight -->
+									<div class="box highlight">
+										<header>
+											<h2 style="margin-left: 10px;" class="personalDescription">Who am I?</h2>
+											<p class="personalDescription">I am Marcus, a Year 3 Computer Science student looking for opportunities <br /> in the Software Engineering and Video Game Development Industry</p>
+										</header>
+										<p class="personalDescription">
+											I have always been fascinated by all kinds of software. <br />
+											I am especially interested in <strong style="color:greenyellow">Purposeful Software:</strong> <i style="color:darkgoldenrod">Software products that solve problems effectively.</i> <br />
+											Video Games are my personal go-to medium for bringing joy to others. <br />
+											Through building purposeful software, I hope to improve the lives of others. <br /> 
+										</p>
+										<div class="row">
+											<a style="margin-top:25px; margin-left:25px;" class="button" href="assets\downloadables\Marcus_23102023.pdf" download>
+												Download my CV
+												<span class="icon solid fa-download"></span>
+											</a>
 										</div>
-									</section>
+									</div>
 							</div>
 						</div>
+						<section class="box highlight">
+							<ul style="margin-top: 50px;" class="special">
+								<li>
+									<a href="index.html" class="icon solid fa-home"></a>
+									<h1 class="iconText">Home</h1>
+								</li>
+								<li>
+									<a href="projects.html" class="icon solid fa-desktop"><span class="label">Computer</span></a>
+									<h1 class="iconText">Products that I have built</h1>
+								</li>
+								<li>
+									<a href="events.html" class="icon solid fa-calendar"><span class="label">Calendar</span></a>
+									<h1 class="iconText">Things that I have done</h1>
+								</li>
+								<li>
+									<a href="contact.html" class="icon solid fa-phone"><span class="label">Phone</span></a>
+									<h1 class="iconText">Contact me!</h1>
+								</li>
+							</ul>
+						</section>
 					</div>
 				</section>
-			
-			<!-- Projects -->
-			<section id="projects">
-				<h2 class="major project-heading"><span>My Projects</span></h2>
-				<div class="swiper slide-container">
-					<!-- Additional required wrapper -->
-					<div class="swiper-wrapper project-content">
-						<!-- Slides -->
-						<div class="swiper-slide">
-							<h3>Duke The Market</h3>
-							<img class="project-image" src="images/dukethemarket.png" alt title="Duke The Market">
-							<p>A Command Line Interface Java Application to help marketers working in department stores</p>
-							<a class="button" href="https://ay2223s1-cs2103-f09-2.github.io/tp/" target="_blank">
-								Find out more
-								<span class="icon solid fa-long-arrow-alt-right"></span>
-							</a>
-						</div>
-
-						<div class="swiper-slide">
-							<h3>Poolsheen</h3>
-							<img class="project-image" src="images/poolsheen.png" alt title="Poolsheen">
-							<p>A simple Command Line Interface Java Application that helps manage the daily happenings around your life.</p>
-							<a class="button" href="https://lfrostbytee.github.io/ip/" target="_blank">
-								Find out more
-								<span class="icon solid fa-long-arrow-alt-right"></span>
-							</a>
-						</div>
-
-						<div class="swiper-slide">
-							<h3>frieNUS</h3>
-							<img class="project-image" src="images/frienus.jpg" alt title="frieNUS">
-							<p>A mobile application that helps students find others who want to do the same modules together</p>
-							<a class="button" href="https://docs.google.com/document/d/1jze7m9hmGHa29Ld6eNFrX0ZSMxrrj2iH1B3pi4bmaYg/edit?usp=sharing" target="_blank">
-								Find out more
-								<span class="icon solid fa-long-arrow-alt-right"></span>
-							</a>
-						</div>
-
-						<div class="swiper-slide">
-							<h3>An Awkward Pong Game</h3>
-							<img class="project-image" src="images/awkwardponggame.png" alt title="An Awkward Pong Game">
-							<p>A Python executable for a 1/2 player Pong Game, but with a twist! Run it on any Python IDE.</p>
-							<a class="button" href="assets/downloadables/An_Awkard_Pong.zip" download>
-								Download now!
-								<span class="icon solid fa-download"></span>
-							</a>
-						</div>
-					</div>
-
-					<div class="swiper-pagination"></div>
-					<div class="swiper-button-prev"></div>
-					<div class="swiper-button-next"></div>
-				</div>
-			</section>
 
 			<!-- Footer -->
 				<footer id="footer">
@@ -216,7 +144,8 @@
 									<section>
 										<h2 class="major"><span>What's this about?</span></h2>
 										<p> 
-											This is my attempt at a nice-looking website. The template for this project has been adapted from <strong>TXT</strong>. <br>
+											This is my attempt at a nice-looking website using pure HTML, CSS, and JS. <br>
+											The template for this project was adapted from <strong>TXT</strong>. <br>
 											Some of the JavaScript components are borrowed from other online projects. <br>
 											I am intending to add more content in the future. Do look out for this page from time to time.
 										</p>	
@@ -224,17 +153,6 @@
 
 							</div>
 							<div class="col-12">
-
-								<!-- Contact -->
-									<section id="contact">
-										<h2 class="major"><span>Get in touch</span></h2>
-										<ul class="contact">
-											<li><a class="icon brands fa-github" href="https://github.com/lfrostbytee"><span class="label">GitHub</span></a></li>
-											<li><a class="icon solid fa-inbox" href="mailto: o.w.marcus@u.nus.edu"><span class="label">Email</span></a></li>
-											<li><a class="icon brands fa-linkedin" href="https://www.linkedin.com/in/marcus-ong-wee-28bb03216/"><span class="label">LinkedIn</span></a></li>
-										</ul>
-									</section>
-
 							</div>
 						</div>
 
@@ -264,3 +182,12 @@
 			
 	</body>
 </html>
+
+<style>
+	.personalDescription {
+		text-align: left
+	}
+	.iconText {
+		margin-top: 10px;
+	}
+</style>
