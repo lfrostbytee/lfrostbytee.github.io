@@ -62,6 +62,16 @@ window.addEventListener('scroll', scrollNav);
 	// Nav.
 
 		// Title Bar.
+		if ($('#logo2').length) {
+			$(
+				'<div id="titleBar">' +
+					'<a href="#navPanel" class="toggle"></a>' +
+					'<span class="title">' + $('#logo').html() + ' ' 
+					+ $('#logo2').html() + '</span>' +
+				'</div>'
+			)
+				.appendTo($body);
+		} else {
 			$(
 				'<div id="titleBar">' +
 					'<a href="#navPanel" class="toggle"></a>' +
@@ -69,6 +79,8 @@ window.addEventListener('scroll', scrollNav);
 				'</div>'
 			)
 				.appendTo($body);
+		}
+
 
 		// Panel.
 			$(
